@@ -30,11 +30,3 @@ streamlit run app.py
 - Plotly
 - NumPy
 
-## Future Enhancements
-- Real Amazon scraping integration
-- BERT/RoBERTa models
-- Database integration
-- API endpoints
-
-## License
-MIT License
