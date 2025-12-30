@@ -306,11 +306,11 @@ if analyze_button:
                     st.write(row['text'])
                 with col2:
                     if row['verified']:
-                        st.badge("✓ Verified", type="info")
+                        st.markdown("✓ Verified", type="info")
                     if row['authentic']:
-                        st.badge("✓ Authentic", type="success")
+                        st.markdown("✓ Authentic", type="success")
                     else:
-                        st.badge("⚠ Suspicious", type="warning")
+                        st.markdown("⚠ Suspicious", type="warning")
                     st.write(f"Sentiment: {row['sentiment_score']:.2f}")
         
         # Note about demo
@@ -332,4 +332,5 @@ st.markdown(
     "Made with ❤️ using Streamlit | © 2024 Amazon Review Classifier"
     "</div>",
     unsafe_allow_html=True
+
 )
