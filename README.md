@@ -20,7 +20,9 @@ streamlit run app.py
 ```
 
 ## Demo
-[Add screenshot here]
+<img width="313" height="323" alt="image" src="https://github.com/user-attachments/assets/a847f9e9-97ac-4818-a772-d8b5bea5e0c4" />
+<img width="1477" height="724" alt="image" src="https://github.com/user-attachments/assets/0254adea-8045-4030-a71f-c0adb2ab73fc" />
+
 
 ## Technology Stack
 - Streamlit
